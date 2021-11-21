@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 app.get('/pointOne', function (req, res) {
 
     res.json({
-        person: "me",
+        person: "me", 
 
     });
 
