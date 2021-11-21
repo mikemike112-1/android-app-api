@@ -4,13 +4,14 @@ var app = express();
 const port = process.env.PORT || 8080 ;
 
 app.get('/', function (req, res) {
-    res.send("You have hit root")
+    res.send("You have hit root. Use /currentLocation for more!")
 });
 
-app.get('/pointOne', function (req, res) {
+app.get('/currentLocation', function (req, res) {
 
     res.json({
-        person: "me", 
+        city: "Towson", 
+        name: "Buddy's Treats"
 
     });
 
