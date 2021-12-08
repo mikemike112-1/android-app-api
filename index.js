@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
         });
       });
 */
-    res.send("You have hit root. Use /foodBank for more!")
+    res.send("You have hit root. Use... \n /foodBank \n /restaurants")
 });
 
 
