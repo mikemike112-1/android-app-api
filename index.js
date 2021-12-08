@@ -47,17 +47,22 @@ app.get('/restaurants', function (req, res) {
 
     res.json({
         'locationOne' : [{
-            city: "Towson", 
-            name: "Buddy's Treats",
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg"
+            id: 1,
+            name: "Buddy's Creations",
+            location: "Towson", 
+            distance: 5,
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            isAccepting: true
         }],
         'locationTwo' : [{
-            city: "Towson", 
-            name: "Greene Turtle",
-            picUrl: "https://utfb-images.untappd.com/logos/8a1da194036b4e880d49d8823a07226e52e20798.png?auto=compress"
+            id: 2,
+            name: "Nacho Mama's",
+            location: "Towson", 
+            distance: 10,
+            picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
+            isAccepting: true
         }]
     });
-
 });
 
 //var server = 
