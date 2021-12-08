@@ -22,7 +22,7 @@ app.get('/', function (req, res) {
 
 app.get('/foodBanks', function (req, res) {
 
-    res.json(
+    res.json([
         {
             id: 1,
             name: "Buddy's Creations",
@@ -39,13 +39,13 @@ app.get('/foodBanks', function (req, res) {
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
         }
-    );
+    ]);
 
 });
 
 app.get('/restaurants', function (req, res) {
 
-    res.json(
+    res.json([
         {
             id: 1,
             name: "Buddy's Creations",
@@ -62,7 +62,7 @@ app.get('/restaurants', function (req, res) {
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
         }
-    );
+    ]);
 });
 
 //var server = 
