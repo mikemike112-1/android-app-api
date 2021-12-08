@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 
 
 
-app.get('/foodBank', function (req, res) {
+app.get('/foodBanks', function (req, res) {
 
     res.json({
         'locationOne' : [{
