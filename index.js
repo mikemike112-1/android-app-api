@@ -22,47 +22,47 @@ app.get('/', function (req, res) {
 
 app.get('/foodBanks', function (req, res) {
 
-    res.json({
-        'locationOne' : [{
+    res.json(
+        {
             id: 1,
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
             picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
             isAccepting: true
-        }],
-        'locationTwo' : [{
+        },
+        {
             id: 2,
             name: "Nacho Mama's",
             location: "Towson", 
             distance: 10,
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
-        }]
-    });
+        }
+    );
 
 });
 
 app.get('/restaurants', function (req, res) {
 
-    res.json({
-        'locationOne' : [{
+    res.json(
+        {
             id: 1,
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
             picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
             isAccepting: true
-        }],
-        'locationTwo' : [{
+        },
+        {
             id: 2,
             name: "Nacho Mama's",
             location: "Towson", 
             distance: 10,
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
-        }]
-    });
+        }
+    );
 });
 
 //var server = 
