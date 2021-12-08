@@ -15,17 +15,7 @@ var con = mysql.createConnection({
 
 app.get('/', function (req, res) {
 
-    /*con.connect(function(err) {
-        if (err) throw err;
-        console.log("Connected!");
-        var sql = "INSERT INTO testTable (colOne) VALUES ('infoStudd')";
-        con.query(sql, function (err, result) {
-          if (err) throw err;
-          console.log("1 record inserted");
-        });
-      });
-*/
-    res.send("You have hit root. Use... \n /foodBank \n /restaurants")
+    res.send("You have hit root. Use... /foodBanks /restaurants")
 });
 
 
@@ -34,12 +24,20 @@ app.get('/foodBank', function (req, res) {
 
     res.json({
         'locationOne' : [{
-            city: "Towson", 
-            name: "Nova's Creations"
+            id: 1,
+            name: "Buddy's Creations",
+            location: "Towson", 
+            distance: 5,
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            isAccepting: true
         }],
         'locationTwo' : [{
-            city: "Towson", 
-            name: "Pumpkin's Creations"
+            id: 2,
+            name: "Nacho Mama's",
+            location: "Towson", 
+            distance: 10,
+            picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
+            isAccepting: true
         }]
     });
 
@@ -50,11 +48,13 @@ app.get('/restaurants', function (req, res) {
     res.json({
         'locationOne' : [{
             city: "Towson", 
-            name: "Buddy's Treats"
+            name: "Buddy's Treats",
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg"
         }],
         'locationTwo' : [{
             city: "Towson", 
-            name: "Syd's Restaurant"
+            name: "Greene Turtle",
+            picUrl: "https://utfb-images.untappd.com/logos/8a1da194036b4e880d49d8823a07226e52e20798.png?auto=compress"
         }]
     });
 
