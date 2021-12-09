@@ -39,6 +39,7 @@ app.get('/foodBanks', function (req, res) {
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
         }
+        
     ]);
 
 });
@@ -56,6 +57,70 @@ app.get('/restaurants', function (req, res) {
         },
         {
             id: 2,
+            name: "Nacho Mama's",
+            location: "Towson", 
+            distance: 10,
+            picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
+            isAccepting: true
+        },
+        {
+            id: 3,
+            name: "Buddy's Creations",
+            location: "Towson", 
+            distance: 5,
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            isAccepting: true
+        },
+        {
+            id: 4,
+            name: "Nacho Mama's",
+            location: "Towson", 
+            distance: 10,
+            picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
+            isAccepting: true
+        },
+        {
+            id: 5,
+            name: "Buddy's Creations",
+            location: "Towson", 
+            distance: 5,
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            isAccepting: true
+        },
+        {
+            id: 6,
+            name: "Nacho Mama's",
+            location: "Towson", 
+            distance: 10,
+            picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
+            isAccepting: true
+        },
+        {
+            id: 7,
+            name: "Buddy's Creations",
+            location: "Towson", 
+            distance: 5,
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            isAccepting: true
+        },
+        {
+            id: 8,
+            name: "Nacho Mama's",
+            location: "Towson", 
+            distance: 10,
+            picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
+            isAccepting: true
+        },
+        {
+            id: 9,
+            name: "Buddy's Creations",
+            location: "Towson", 
+            distance: 5,
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            isAccepting: true
+        },
+        {
+            id: 10,
             name: "Nacho Mama's",
             location: "Towson", 
             distance: 10,
