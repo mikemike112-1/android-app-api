@@ -61,7 +61,7 @@ app.get('/restaurants', function (req, res) {
             location: "Towson", 
             distance: 10,
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
-            isAccepting: true
+            isAccepting: false
         },
         {
             id: 3,
@@ -77,7 +77,7 @@ app.get('/restaurants', function (req, res) {
             location: "Towson", 
             distance: 10,
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
-            isAccepting: true
+            isAccepting: false
         },
         {
             id: 5,
@@ -85,7 +85,7 @@ app.get('/restaurants', function (req, res) {
             location: "Towson", 
             distance: 5,
             picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
-            isAccepting: true
+            isAccepting: false
         },
         {
             id: 6,
