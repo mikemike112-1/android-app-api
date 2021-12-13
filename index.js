@@ -66,7 +66,8 @@ app.get('/', function (req, res) {
     con.query(restaurantQuery, function (err, result, fields){
             if(err) throw err;
             console.log(result);
-            res.send(result);
+            res.send("SUCCESS");
+            //res.send(result);
     });
 
 });
