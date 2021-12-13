@@ -120,7 +120,7 @@ app.get('/restaurants', function (req, res) {
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
-            picUrl: "https://ibb.co/DRxTHM0",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: true
         },
         {
