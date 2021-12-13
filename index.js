@@ -66,7 +66,7 @@ app.get('/', function (req, res) {
     con.query(restaurantQuery, function (err, result, fields){
             if(err) throw err;
             console.log(result);
-            res.send("SUCCESS");
+            res.send("SUCCESS version 1");
             //res.send(result);
     });
 
@@ -76,7 +76,7 @@ app.get('/', function (req, res) {
 app.get('/foodBanks', function (req, res) {
 
 
-    res.json(
+    res.json([
         {
             id: 1,
             name: "Please update",
@@ -101,12 +101,12 @@ app.get('/foodBanks', function (req, res) {
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
         }
-    );
+        ]);
 });
 
 app.get('/restaurants', function (req, res) {
 
-    res.json(
+    res.json([
         {
             id: 1,
             name: "Please update",
@@ -195,7 +195,7 @@ app.get('/restaurants', function (req, res) {
             picUrl: "https://nachomamasmd.com/wp-content/uploads/2017/08/nacho-mamas-logo.png",
             isAccepting: true
         }
-    );
+    ]);
 });
 
 //var server = 
