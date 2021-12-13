@@ -66,7 +66,7 @@ app.get('/', function (req, res) {
     con.query(restaurantQuery, function (err, result, fields){
             if(err) throw err;
             console.log(result);
-            res.send("SUCCESS version 2");
+            res.send("SUCCESS version 3S");
             //res.send(result);
     });
 
@@ -82,7 +82,7 @@ app.get('/foodBanks', function (req, res) {
             name: "Please update",
             location: "Update", 
             distance: 5,
-            picUrl: "update",
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
             isAccepting: true
         },        
         {
@@ -112,7 +112,7 @@ app.get('/restaurants', function (req, res) {
             name: "Please update",
             location: "Update", 
             distance: 5,
-            picUrl: "update",
+            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
             isAccepting: true
         },     
         {
