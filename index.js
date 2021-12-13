@@ -82,7 +82,7 @@ app.get('/foodBanks', function (req, res) {
             name: "Please update",
             location: "Update", 
             distance: 5,
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: true
         },        
         {
@@ -112,7 +112,7 @@ app.get('/restaurants', function (req, res) {
             name: "Please update",
             location: "Update", 
             distance: 5,
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: true
         },     
         {
@@ -136,7 +136,7 @@ app.get('/restaurants', function (req, res) {
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: true
         },
         {
@@ -152,7 +152,7 @@ app.get('/restaurants', function (req, res) {
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: false
         },
         {
@@ -168,7 +168,7 @@ app.get('/restaurants', function (req, res) {
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: true
         },
         {
@@ -184,7 +184,7 @@ app.get('/restaurants', function (req, res) {
             name: "Buddy's Creations",
             location: "Towson", 
             distance: 5,
-            picUrl: "https://dogtime.com/assets/uploads/gallery/jack-russel-terrier-dog-breed-pictures/2-face.jpg",
+            picUrl: "https://i.ibb.co/LZLHXgV/buddyUwU.jpg",
             isAccepting: true
         },
         {
